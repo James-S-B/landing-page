@@ -40,7 +40,7 @@ img.navbar {
 /* Main Text*/
 
 .mid {
-    margin-top: 10%;
+    margin-top: 10px;
     display: flex;
     justify-content: center;
     background-color: pink;
@@ -90,4 +90,71 @@ button {
 
 button:hover {
     background-color: rgb(192, 51, 75)
+}
+
+
+/* Examples part*/
+
+.exampleimg {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+.exampleimg h1 {
+    text-align: center;
+    color: #000000;
+}
+
+.images-of-pig {
+    display: flex;
+    justify-content: space-around;
+    display: flex;
+    flex: 1;
+    gap: 0;
+    min-width: 50px;
+    flex-wrap: wrap;
+    object-fit: cover;
+}
+
+.exampleimg img {
+    border: 4px solid rgb(192, 51, 75);
+    padding: 0;
+    border-radius: 15px;
+    height: 200px;
+    width: 270px;
+}
+
+
+/* Quote of the day*/
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote h1 {
+    color: #111;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    line-height: 1;
+    text-align: center;
+}
+
+.quote img {
+    height: auto;
+    width: 300px;
+    border: 4px solid rgb(192, 51, 75);
+}
+
+
+/* copyright */
+
+.copyright {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
 }
